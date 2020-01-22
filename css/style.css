@@ -18,11 +18,10 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
 }
+
 header {
     height: 70px;
-    background-color: orange;
 }
 
 .banner-testo {
@@ -32,10 +31,12 @@ header {
 .grigio {
     background-color: gray;
 }
+
 .riga-grigia {
     height: 100px;
     background-color: lightgray;
 }
+
 .bianco {
     background-color: white;
 }
@@ -47,19 +48,66 @@ header {
 }
 
 .blocchi {
-    width: 33,33%;
-    float: left;
+    width: 30%;
+
     height: 200px;
     background-color: yellow;
     border: 2px solid black;
 }
 
 .fluentify {
-
+    float: left;
+    margin-top: 10px;
 }
 
 nav li {
     float: left;
     list-style: none;
     margin-left: 20px;
+    margin-top: 25px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+ul {
+    margin-right: 50px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0d325a;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color:  #7fb802;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.button1 {
+    width: 230px;
+    color: white;
+
+}
+
+.scelta {
+    width: 600px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 100px;
 }
